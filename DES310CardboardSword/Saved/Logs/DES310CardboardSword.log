@@ -1,4 +1,4 @@
-﻿Log file open, 03/29/21 11:24:22
+﻿Log file open, 03/29/21 17:00:57
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: DES310CardboardSword
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.102144
+LogStats: Stats thread started at 0.116399
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,560 +163,548 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
-[2021.03.29-10.24.22:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.03.29-10.24.22:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
-[2021.03.29-10.24.22:753][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.03.29-10.24.22:754][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
-[2021.03.29-10.24.22:754][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
-[2021.03.29-10.24.22:803][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:803][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.29-10.24.22:803][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.03.29-10.24.22:803][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.03.29-10.24.22:804][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.03.29-10.24.22:805][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.03.29-10.24.22:806][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.03.29-10.24.22:806][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.29-10.24.22:806][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.03.29-10.24.22:809][  0]LogHAL: Display: Platform has ~ 8 GB [8505876480 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.03.29-10.24.22:810][  0]LogInit: Going up to parent DeviceProfile []
-[2021.03.29-10.24.22:810][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.29-10.24.22:810][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.03.29-10.24.22:811][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.03.29-10.24.22:812][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
-[2021.03.29-10.24.22:812][  0]LogInit: Computer: DESKTOP-NOMG3TS
-[2021.03.29-10.24.22:812][  0]LogInit: User: zodia
-[2021.03.29-10.24.22:812][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.03.29-10.24.22:812][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.03.29-10.24.22:812][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2021.03.29-10.24.22:812][  0]LogMemory: Platform Memory Stats for Windows
-[2021.03.29-10.24.22:812][  0]LogMemory: Process Physical Memory: 105.33 MB used, 105.33 MB peak
-[2021.03.29-10.24.22:812][  0]LogMemory: Process Virtual Memory: 100.50 MB used, 100.50 MB peak
-[2021.03.29-10.24.22:812][  0]LogMemory: Physical Memory: 5800.45 MB used,  2311.39 MB free, 8111.84 MB total
-[2021.03.29-10.24.22:812][  0]LogMemory: Virtual Memory: 5137.66 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2021.03.29-10.24.23:357][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.03.29-10.24.23:402][  0]LogInit: Using OS detected language (en-GB).
-[2021.03.29-10.24.23:402][  0]LogInit: Using OS detected locale (en-GB).
-[2021.03.29-10.24.23:404][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2021.03.29-10.24.23:722][  0]LogInit: Setting process to per monitor DPI aware
-[2021.03.29-10.24.23:786][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.03.29-10.24.23:786][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.03.29-10.24.24:083][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.03.29-10.24.24:083][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.03.29-10.24.24:083][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.03.29-10.24.24:083][  0]LogD3D11RHI: D3D11 adapters:
-[2021.03.29-10.24.24:142][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2021.03.29-10.24.24:142][  0]LogD3D11RHI:       2009/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.03.29-10.24.24:155][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2021.03.29-10.24.24:155][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.03.29-10.24.24:158][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.03.29-10.24.24:158][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.03.29-10.24.24:158][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.03.29-10.24.24:212][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.03.29-10.24.24:212][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2021.03.29-10.24.24:212][  0]LogWindows: EnumDisplayDevices:
-[2021.03.29-10.24.24:212][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2021.03.29-10.24.24:212][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2021.03.29-10.24.24:213][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2021.03.29-10.24.24:213][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2021.03.29-10.24.24:213][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2021.03.29-10.24.24:213][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2021.03.29-10.24.24:213][  0]LogD3D11RHI:      Driver Date: Unknown
-[2021.03.29-10.24.24:213][  0]LogRHI: Texture pool is 1406 MB (70% of 2009 MB)
-[2021.03.29-10.24.24:242][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2021.03.29-10.24.24:242][  0]LogD3D11RHI: Async texture creation enabled
-[2021.03.29-10.24.24:257][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.03.29-10.24.24:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.03.29-10.24.24:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.03.29-10.24.24:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.03.29-10.24.24:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.03.29-10.24.24:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.03.29-10.24.24:984][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.03.29-10.24.24:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.03.29-10.24.25:004][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.03.29-10.24.25:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.03.29-10.24.25:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.03.29-10.24.25:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.03.29-10.24.25:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.03.29-10.24.25:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.03.29-10.24.25:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.03.29-10.24.25:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.03.29-10.24.25:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.03.29-10.24.25:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.03.29-10.24.25:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.03.29-10.24.25:107][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.03.29-10.24.25:111][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.03.29-10.24.25:149][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Intermediate/Shaders/WorkingDirectory/7028/).
-[2021.03.29-10.24.25:149][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zodia/AppData/Local/Temp/UnrealShaderWorkingDir/61111F6040680D5819570F997514361E/'.
-[2021.03.29-10.24.25:150][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.03.29-10.24.25:150][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.03.29-10.24.25:150][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.03.29-10.24.26:014][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.03.29-10.24.26:084][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/zodia/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2021.03.29-10.24.26:085][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zodia/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2021.03.29-10.24.26:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.03.29-10.24.26:085][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.03.29-10.24.26:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.29-10.24.26:085][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.03.29-10.24.26:095][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.03.29-10.24.26:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.29-10.24.26:095][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.03.29-10.24.26:097][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zodia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.03.29-10.24.26:097][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.03.29-10.24.26:098][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.03.29-10.24.26:131][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.03.29-10.24.26:134][  0]LogSlate: Using FreeType 2.10.0
-[2021.03.29-10.24.26:134][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.03.29-10.24.26:190][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2021.03.29-10.24.26:559][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.29-10.24.26:744][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.03.29-10.24.26:744][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.03.29-10.24.26:744][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.03.29-10.24.26:744][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.03.29-10.24.26:744][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.03.29-10.24.26:763][  0]LogNetVersion: DES310CardboardSword 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2930664652)
-[2021.03.29-10.24.28:110][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.072061 seconds
-[2021.03.29-10.24.28:119][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2021.03.29-10.24.28:119][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2021.03.29-10.24.28:119][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.03.29-10.24.28:614][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.03.29-10.24.28:617][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.03.29-10.24.28:685][  0]SourceControl: Source control is disabled
-[2021.03.29-10.24.28:685][  0]SourceControl: Source control is disabled
-[2021.03.29-10.24.28:687][  0]SourceControl: Source control is disabled
-[2021.03.29-10.24.28:689][  0]SourceControl: Source control is disabled
-[2021.03.29-10.24.28:690][  0]SourceControl: Source control is disabled
-[2021.03.29-10.24.28:809][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.03.29-10.24.28:824][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.29-10.24.28:824][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.29-10.24.28:948][  0]LogOcInput: OculusInput pre-init called
-[2021.03.29-10.24.28:957][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.03.29-10.24.28:957][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.03.29-10.24.29:037][  0]LogEngine: Initializing Engine...
-[2021.03.29-10.24.29:038][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.03.29-10.24.29:039][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.03.29-10.24.29:459][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.03.29-10.24.29:468][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.03.29-10.24.29:558][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.03.29-10.24.29:558][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.03.29-10.24.29:559][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.03.29-10.24.29:559][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.03.29-10.24.29:559][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.03.29-10.24.29:559][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.03.29-10.24.29:559][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.03.29-10.24.29:559][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.03.29-10.24.29:559][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.03.29-10.24.29:559][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: Is Default: Yes
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: Channel Count Used: 8
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: Device Channel Count: 8
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: Channel Order:
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 2: FrontCenter
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 3: LowFrequency
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 4: BackLeft
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 5: BackRight
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 6: SideLeft
-[2021.03.29-10.24.29:613][  0]LogAudioMixer: Display: 7: SideRight
-[2021.03.29-10.24.29:691][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.03.29-10.24.29:700][  0]LogInit: FAudioDevice initialized.
-[2021.03.29-10.24.29:700][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.03.29-10.24.29:791][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/zodia/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2021.03.29-10.24.29:798][  0]LogInit: Texture streaming: Enabled
-[2021.03.29-10.24.29:809][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.03.29-10.24.29:809][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.03.29-10.24.29:810][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.03.29-10.24.29:881][  0]LogInit: Transaction tracking system initialized
-[2021.03.29-10.24.29:897][  0]BlueprintLog: New page: Editor Load
-[2021.03.29-10.24.29:938][  0]LocalizationService: Localization service is disabled
-[2021.03.29-10.24.30:237][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/' took 0.01s
-[2021.03.29-10.24.30:237][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.03.29-10.24.30:237][  0]LogCook: Display: Mobile HDR setting 1
-[2021.03.29-10.24.30:971][  0]SourceControl: Source control is disabled
-[2021.03.29-10.24.30:972][  0]LightingResults: New page: Lighting Build
-[2021.03.29-10.24.30:973][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.03.29-10.24.30:973][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.03.29-10.24.30:973][  0]MapCheck: New page: Map Check
-[2021.03.29-10.24.30:973][  0]LightingResults: New page: Lighting Build
-[2021.03.29-10.24.31:001][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2021.03.29-10.24.31:070][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:070][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:070][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:070][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:178][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:178][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
-[2021.03.29-10.24.31:178][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:178][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
-[2021.03.29-10.24.31:178][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:178][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
-[2021.03.29-10.24.31:178][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
-[2021.03.29-10.24.31:178][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
-[2021.03.29-10.24.31:307][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.03.29-10.24.31:313][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.03.29-10.24.31:341][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
-[2021.03.29-10.24.31:341][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.03.29-10.24.31:341][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.184ms to complete.
-[2021.03.29-10.24.31:341][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.370
-[2021.03.29-10.24.31:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.29-10.24.31:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.29-10.24.31:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.29-10.24.31:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.29-10.24.31:542][  0]LogCollectionManager: Loaded 0 collections in 0.002395 seconds
-[2021.03.29-10.24.31:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Collections/' took 0.00s
-[2021.03.29-10.24.31:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Developers/zodia/Collections/' took 0.00s
-[2021.03.29-10.24.31:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Collections/' took 0.00s
-[2021.03.29-10.24.31:561][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3015 classes and 717 folders.
-[2021.03.29-10.24.31:567][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.03.29-10.24.31:722][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.03.29-10.24.31:727][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2021.03.29-10.24.31:785][  0]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.03.29-10.24.31:788][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.03.29-10.24.31:794][  0]LogSlate: Took 0.000746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.03.29-10.24.31:957][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2021.03.29-10.24.32:240][  0]LogSlate: Window 'Tutorials' being destroyed
-[2021.03.29-10.24.32:250][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.03.29-10.24.32:251][  0]LogLoad: (Engine Initialization) Total time: 11.05 seconds
-[2021.03.29-10.24.32:251][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.03.29-10.24.32:321][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.03.29-10.24.32:452][  0]LogSlate: Took 0.001346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.03.29-10.24.32:504][  1]LogAssetRegistry: Asset discovery search completed in 6.3147 seconds
-[2021.03.29-10.24.32:510][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2021.03.29-10.24.43:198][ 33]LogSlate: Window 'Message Log' being destroyed
-[2021.03.29-10.24.43:202][ 33]LogSlate: Window 'Message Log' being destroyed
-[2021.03.29-10.24.46:196][193]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.03.29-10.24.46:231][193]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/boat.boat
-[2021.03.29-10.24.46:499][193]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2021.03.29-10.24.47:492][193]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.03.29-10.24.47:615][194]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.03.29-10.25.05:134][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.25.05:135][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.25.05:136][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.25.05:137][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.25.05:140][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.25.05:140][936]LoadErrors: Failed to load /Game/None.Material_0 Referenced by ore
-[2021.03.29-10.25.05:140][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.25.05:141][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.25.05:141][936]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
-[2021.03.29-10.26.36:163][272]BlueprintLog: New page: Compile boat
-[2021.03.29-10.26.36:602][272]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
-[2021.03.29-10.26.37:389][296]LogSavePackage: Moving '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/boat20F686404A3CD9FCAFC586B289049A2D.tmp' to '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/ThirdPersonBP/Blueprints/boat.uasset'
-[2021.03.29-10.26.37:414][296]AssetCheck: New page: Asset Save: boat
-[2021.03.29-10.26.37:414][296]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/boat.boat
-[2021.03.29-10.26.41:436][471]LogTemp: Repeating last play command: Selected Viewport
-[2021.03.29-10.26.41:468][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2021.03.29-10.26.41:470][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.03.29-10.26.41:470][471]PIE: New page: PIE session: ThirdPersonExampleMap (29 Mar 2021, 12:26:41)
-[2021.03.29-10.26.41:471][471]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.03.29-10.26.41:473][471]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.03.29-10.26.41:475][471]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.03.29-10.26.41:494][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019361s)
-[2021.03.29-10.26.41:496][471]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.03.29-10.26.41:496][471]LogPlayLevel: PIE: World Init took: (0.001698s)
-[2021.03.29-10.26.41:497][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021898s)
-[2021.03.29-10.26.41:571][471]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
-[2021.03.29-10.26.41:575][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.03.29-10.26.41:575][471]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.03.29-10.26.41:575][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.03.29-10.26.41:575][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.03.29-10.26.41:575][471]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.03.29-10.26.41:575][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.03.29-10.26.41:575][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.03.29-10.26.41:575][471]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.03.29-10.26.41:576][471]LogAudio: Display: Using built-in audio occlusion.
-[2021.03.29-10.26.41:576][471]LogAudioMixer: Display: Initializing audio mixer.
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: Is Default: Yes
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: Sample Rate: 48000
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: Channel Count Used: 8
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: Device Channel Count: 8
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: Channel Order:
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 0: FrontLeft
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 1: FrontRight
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 2: FrontCenter
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 3: LowFrequency
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 4: BackLeft
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 5: BackRight
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 6: SideLeft
-[2021.03.29-10.26.41:616][471]LogAudioMixer: Display: 7: SideRight
-[2021.03.29-10.26.41:706][471]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.03.29-10.26.41:707][471]LogInit: FAudioDevice initialized.
-[2021.03.29-10.26.41:721][471]LogLoad: Game class is 'endlesswaterGameMode_C'
-[2021.03.29-10.26.41:727][471]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.03.29-11.26.41
-[2021.03.29-10.26.41:728][471]LogWorld: Bringing up level for play took: 0.001334
-[2021.03.29-10.26.41:728][471]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2021.03.29-10.26.41:738][471]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2021.03.29-10.26.41:745][471]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.643
-[2021.03.29-10.26.41:745][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2021.03.29-10.26.45:973][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2021.03.29-10.26.45:973][696]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2021.03.29-10.26.45:993][696]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2021.03.29-10.26.45:996][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2021.03.29-10.26.45:997][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.29-10.26.45:997][696]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.03.29-10.26.45:998][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2021.03.29-10.26.45:998][696]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.03.29-10.26.45:998][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.03.29-10.26.46:008][696]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.03.29-10.26.46:008][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2021.03.29-10.26.46:015][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.03.29-10.26.46:053][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2021.03.29-10.26.46:059][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.29-10.26.46:103][696]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
-[2021.03.29-10.26.46:125][697]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2021.03.29-10.26.53:942][ 72]LogSavePackage: Moving '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/boat657052F240DFEB79C88D35B32623010A.tmp' to '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/ThirdPersonBP/Blueprints/boat.uasset'
-[2021.03.29-10.26.53:968][ 72]AssetCheck: New page: Asset Save: boat
-[2021.03.29-10.26.53:969][ 72]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/boat.boat
-[2021.03.29-10.29.01:433][970]LogEditorViewport: Clicking Background
-[2021.03.29-10.29.02:630][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
-[2021.03.29-10.29.02:957][ 24]LogSavePackage: Moving '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/ThirdPersonExampleMap31577AB14FFB30EDB42AC483BF27960E.tmp' to '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.03.29-10.29.03:148][ 24]LogSavePackage: Moving '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/ThirdPersonExampleMap_BuiltData78C106824413FF655F2B10B7872581D2.tmp' to '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.03.29-10.29.03:175][ 24]AssetCheck: New page: Asset Save: multiple assets
-[2021.03.29-10.29.03:175][ 24]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.03.29-10.29.03:175][ 24]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.03.29-10.29.05:838][128]LogSlate: Window 'boat' being destroyed
-[2021.03.29-10.29.05:848][128]LogSlate: Window 'boat' being destroyed
-[2021.03.29-10.29.05:850][128]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2021.03.29-10.29.05:850][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
+[2021.03.29-16.00.57:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.29-16.00.57:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
+[2021.03.29-16.00.57:671][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
+[2021.03.29-16.00.57:679][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.29-16.00.57:679][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.29-16.00.57:680][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.29-16.00.57:680][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.29-16.00.57:680][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.29-16.00.57:683][  0]LogHAL: Display: Platform has ~ 8 GB [8505876480 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.29-16.00.57:683][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.29-16.00.57:683][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.29-16.00.57:683][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Scalability.ini]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.29-16.00.57:684][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.29-16.00.57:685][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.29-16.00.57:685][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.29-16.00.57:685][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Config/Windows/Engine.ini]
+[2021.03.29-16.00.57:685][  0]LogInit: Computer: DESKTOP-NOMG3TS
+[2021.03.29-16.00.57:685][  0]LogInit: User: zodia
+[2021.03.29-16.00.57:685][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.03.29-16.00.57:685][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.29-16.00.57:685][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.03.29-16.00.57:685][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.29-16.00.57:685][  0]LogMemory: Process Physical Memory: 105.82 MB used, 105.82 MB peak
+[2021.03.29-16.00.57:685][  0]LogMemory: Process Virtual Memory: 100.91 MB used, 100.91 MB peak
+[2021.03.29-16.00.57:685][  0]LogMemory: Physical Memory: 5470.48 MB used,  2641.35 MB free, 8111.84 MB total
+[2021.03.29-16.00.57:685][  0]LogMemory: Virtual Memory: 5137.66 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.03.29-16.00.58:187][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.29-16.00.58:215][  0]LogInit: Using OS detected language (en-GB).
+[2021.03.29-16.00.58:215][  0]LogInit: Using OS detected locale (en-GB).
+[2021.03.29-16.00.58:216][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.03.29-16.00.58:472][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.29-16.00.58:532][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.29-16.00.58:532][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.29-16.00.58:744][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.29-16.00.58:744][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.29-16.00.58:744][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.29-16.00.58:744][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.29-16.00.58:834][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2021.03.29-16.00.58:834][  0]LogD3D11RHI:       2009/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.29-16.00.58:848][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.03.29-16.00.58:848][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.03.29-16.00.58:851][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.29-16.00.58:851][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.29-16.00.58:851][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.29-16.00.58:909][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.29-16.00.58:909][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2021.03.29-16.00.58:909][  0]LogWindows: EnumDisplayDevices:
+[2021.03.29-16.00.58:909][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2021.03.29-16.00.58:909][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2021.03.29-16.00.58:910][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.03.29-16.00.58:910][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.03.29-16.00.58:910][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2021.03.29-16.00.58:910][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.03.29-16.00.58:910][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.03.29-16.00.58:910][  0]LogRHI: Texture pool is 1406 MB (70% of 2009 MB)
+[2021.03.29-16.00.58:940][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.03.29-16.00.58:940][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.29-16.00.58:955][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.29-16.00.59:319][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.29-16.00.59:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.29-16.00.59:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.29-16.00.59:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.29-16.00.59:382][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.29-16.00.59:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.29-16.00.59:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.29-16.00.59:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.29-16.00.59:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.29-16.00.59:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.29-16.00.59:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.29-16.00.59:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.29-16.00.59:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.29-16.00.59:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.29-16.00.59:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.29-16.00.59:492][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.29-16.00.59:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.29-16.00.59:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.29-16.00.59:510][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.29-16.00.59:514][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.29-16.00.59:549][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Intermediate/Shaders/WorkingDirectory/15920/).
+[2021.03.29-16.00.59:549][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zodia/AppData/Local/Temp/UnrealShaderWorkingDir/2FF4153D4A8A16D7F7C39AA3E1AF83D7/'.
+[2021.03.29-16.00.59:550][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.29-16.00.59:550][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.29-16.00.59:550][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.29-16.01.00:666][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.29-16.01.00:814][  0]LogDerivedDataCache: Loaded boot cache 0.15s 78MB C:/Users/zodia/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.29-16.01.00:815][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zodia/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.03.29-16.01.00:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.29-16.01.00:815][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.29-16.01.00:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.29-16.01.00:816][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.29-16.01.00:849][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.29-16.01.00:850][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.29-16.01.00:850][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.29-16.01.00:859][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zodia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.29-16.01.00:859][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.29-16.01.00:859][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.29-16.01.00:937][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.03.29-16.01.00:943][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.29-16.01.00:944][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.29-16.01.01:092][  0]LogAssetRegistry: FAssetRegistry took 0.0153 seconds to start up
+[2021.03.29-16.01.01:628][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.29-16.01.01:803][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.29-16.01.01:803][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.29-16.01.01:803][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.29-16.01.01:803][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.29-16.01.01:803][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.29-16.01.01:822][  0]LogNetVersion: DES310CardboardSword 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2930664652)
+[2021.03.29-16.01.03:125][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.095962 seconds
+[2021.03.29-16.01.03:142][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2021.03.29-16.01.03:142][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2021.03.29-16.01.03:142][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.29-16.01.03:663][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.29-16.01.03:667][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.29-16.01.03:735][  0]SourceControl: Source control is disabled
+[2021.03.29-16.01.03:735][  0]SourceControl: Source control is disabled
+[2021.03.29-16.01.03:736][  0]SourceControl: Source control is disabled
+[2021.03.29-16.01.03:737][  0]SourceControl: Source control is disabled
+[2021.03.29-16.01.03:738][  0]SourceControl: Source control is disabled
+[2021.03.29-16.01.03:840][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.29-16.01.03:853][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.29-16.01.03:853][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.29-16.01.03:954][  0]LogOcInput: OculusInput pre-init called
+[2021.03.29-16.01.03:964][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.29-16.01.03:964][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.29-16.01.04:036][  0]LogEngine: Initializing Engine...
+[2021.03.29-16.01.04:036][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.29-16.01.04:037][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.29-16.01.04:409][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.29-16.01.04:417][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.29-16.01.04:514][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.29-16.01.04:514][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.29-16.01.04:514][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.29-16.01.04:514][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.29-16.01.04:514][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.29-16.01.04:514][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.29-16.01.04:514][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.29-16.01.04:514][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.29-16.01.04:515][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.29-16.01.04:515][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: Channel Count Used: 8
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: Device Channel Count: 8
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: Channel Order:
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.29-16.01.04:563][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.03.29-16.01.04:564][  0]LogAudioMixer: Display: 5: BackRight
+[2021.03.29-16.01.04:564][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.03.29-16.01.04:564][  0]LogAudioMixer: Display: 7: SideRight
+[2021.03.29-16.01.04:648][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.29-16.01.04:657][  0]LogInit: FAudioDevice initialized.
+[2021.03.29-16.01.04:658][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.29-16.01.04:763][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/zodia/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.29-16.01.04:767][  0]LogInit: Texture streaming: Enabled
+[2021.03.29-16.01.04:779][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.29-16.01.04:779][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.29-16.01.04:781][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.29-16.01.04:871][  0]LogInit: Transaction tracking system initialized
+[2021.03.29-16.01.04:883][  0]BlueprintLog: New page: Editor Load
+[2021.03.29-16.01.04:920][  0]LocalizationService: Localization service is disabled
+[2021.03.29-16.01.05:279][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/' took 0.01s
+[2021.03.29-16.01.05:280][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.29-16.01.05:280][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.29-16.01.05:992][  0]SourceControl: Source control is disabled
+[2021.03.29-16.01.05:992][  0]LightingResults: New page: Lighting Build
+[2021.03.29-16.01.05:993][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.29-16.01.05:993][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.29-16.01.05:993][  0]MapCheck: New page: Map Check
+[2021.03.29-16.01.05:993][  0]LightingResults: New page: Lighting Build
+[2021.03.29-16.01.06:020][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.03.29-16.01.06:112][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:112][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:113][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:113][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:115][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:115][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:115][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:115][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:255][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:255][  0]LoadErrors: Failed to load /Game/None.Material_0 Referenced by ore
+[2021.03.29-16.01.06:255][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:255][  0]LoadErrors: Failed to load /Game/None.Material_0 Referenced by ore
+[2021.03.29-16.01.06:255][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:255][  0]LoadErrors: Failed to load /Game/None.Material_0 Referenced by ore
+[2021.03.29-16.01.06:255][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/ore.uasset' failed to load '/Game/None': Can't find file.
+[2021.03.29-16.01.06:255][  0]LoadErrors: Failed to load /Game/None.Material_0 Referenced by ore
+[2021.03.29-16.01.06:256][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:256][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
+[2021.03.29-16.01.06:256][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:256][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
+[2021.03.29-16.01.06:256][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:257][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
+[2021.03.29-16.01.06:257][  0]LogLinker: Warning: While loading '../../../../../../Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Ferryman/assets/boat.uasset' failed to load '/Game/_null_': Can't find file.
+[2021.03.29-16.01.06:257][  0]LoadErrors: Failed to load /Game/_null_._null_ Referenced by boat
+[2021.03.29-16.01.06:377][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.29-16.01.06:396][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.29-16.01.06:429][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.03.29-16.01.06:430][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.29-16.01.06:430][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.25ms to complete.
+[2021.03.29-16.01.06:430][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.439
+[2021.03.29-16.01.06:653][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.29-16.01.06:662][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.29-16.01.06:674][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.29-16.01.06:685][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.29-16.01.06:693][  0]LogCollectionManager: Loaded 0 collections in 0.002695 seconds
+[2021.03.29-16.01.06:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Saved/Collections/' took 0.00s
+[2021.03.29-16.01.06:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Developers/zodia/Collections/' took 0.00s
+[2021.03.29-16.01.06:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zodia/OneDrive/Documents/GitHub/DES310-CardboardSword/DES310CardboardSword/Content/Collections/' took 0.00s
+[2021.03.29-16.01.06:711][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 3015 classes and 717 folders.
+[2021.03.29-16.01.06:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.03.29-16.01.06:848][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.29-16.01.06:853][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2021.03.29-16.01.06:916][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.29-16.01.06:918][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.29-16.01.06:925][  0]LogSlate: Took 0.000764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.29-16.01.07:040][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.03.29-16.01.07:250][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.29-16.01.07:251][  0]LogLoad: (Engine Initialization) Total time: 11.15 seconds
+[2021.03.29-16.01.07:251][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.29-16.01.07:320][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.29-16.01.07:460][  0]LogSlate: Took 0.001105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.29-16.01.07:542][  1]LogAssetRegistry: Asset discovery search completed in 6.4549 seconds
+[2021.03.29-16.01.07:547][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2021.03.29-16.01.08:308][ 36]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.29-16.01.09:411][ 85]LogSlate: Window 'Message Log' being destroyed
+[2021.03.29-16.01.09:419][ 85]LogSlate: Window 'Message Log' being destroyed
+[2021.03.29-16.01.12:780][138]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SyncInterval 0
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1936
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1056
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.OutputWindow 00000000004706FC
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.Windowed true
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2021.03.29-16.01.15:489][138]LogRHI: Error: SwapChainDesc.Flags 2050
+[2021.03.29-16.01.15:489][138]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:389 
+ with error DXGI_ERROR_DEVICE_REMOVED 00000000
+[2021.03.29-16.01.15:489][138]LogD3D11RHI: [Aftermath] GDynamicRHI=0000022C3BE5A0C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2021.03.29-16.01.15:489][138]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2021.03.29-16.01.17:850][139]LogThreadingWindows: Error: Runnable thread RenderThread 1 crashed.
+[2021.03.29-16.01.17:850][139]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.03.29-16.01.17:850][139]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2021.03.29-16.01.17:850][139]LogWindows: Error: === Critical error: ===
+[2021.03.29-16.01.17:850][139]LogWindows: Error: HandleError re-entered.
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:850][139]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.03.29-16.01.17:850][139]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp] [Line: 853] 
+[2021.03.29-16.01.17:850][139]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.03.29-16.01.17:850][139]LogWindows: Error: Rendering thread exception:
+[2021.03.29-16.01.17:850][139]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Util.cpp] [Line: 198] 
+[2021.03.29-16.01.17:850][139]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x0 - 'S_OK')
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:850][139]LogWindows: Error: Unhandled Exception: 0x00008000
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff57db3b29 KERNELBASE.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffef24cc166 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffef24cdc51 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffef2282c7d UE4Editor-Core.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf2c13e9 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf2c5bbf UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf2a7549 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf2a6912 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf2b2b9d UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff179fb920 UE4Editor-RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff179feff0 UE4Editor-RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff179feacf UE4Editor-RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff179ffc8b UE4Editor-RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff179f2162 UE4Editor-RHI.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf01765a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf00c8ac UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffedf01f60c UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffef2059ff2 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffef205a393 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff16775391 UE4Editor-RenderCore.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff1677e254 UE4Editor-RenderCore.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffef24d32ef UE4Editor-Core.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007ffef24d2f94 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff588c7c24 KERNEL32.DLL!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: [Callstack] 0x00007fff5a32d721 ntdll.dll!UnknownFunction []
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:850][139]LogWindows: Error: 
+[2021.03.29-16.01.17:853][139]Log file closed, 03/29/21 17:01:17
